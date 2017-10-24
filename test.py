@@ -1,9 +1,6 @@
 
 # coding: utf-8
 
-# In[10]:
-
-get_ipython().magic('matplotlib inline')
 #%matplotlib tk
 #matplotlib notebook
 
