@@ -1,12 +1,6 @@
 
 # coding: utf-8
 
-#%matplotlib tk
-#matplotlib notebook
-
-
-# In[11]:
-
 import os
 import numpy as np
 from matplotlib import pyplot as plt, font_manager
@@ -33,8 +27,6 @@ ax.bar(x,y)
 plt.show()
 
 
-# In[22]:
-
 import os
 import pandas as pd
 
@@ -47,14 +39,3 @@ pd.read_csv(anime_csv).head()
 anime_master_csv = os.path.join(base_url, 'anime_master.csv')
 pd.read_csv(anime_master_csv).head()
 
-
-# 
-# \begin{align}
-# \sqrt{(2x-1)+(3+x)^3}
-# \end{align}
-# $$E=mc^2$$
-# 
-# Able | Bob
-# --|--
-# C | D
-# E | F
